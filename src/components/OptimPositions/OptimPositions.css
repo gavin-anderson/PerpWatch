@@ -1,0 +1,82 @@
+.optim-tables {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+}
+
+.optim-table-container {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+.optim-table-container h2 {
+    font-size: 1rem;
+}
+
+.optim-table-container .table-scroll-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 1rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100%;
+
+}
+.optim-table-container .table-scroll-container::-webkit-scrollbar {
+    display: none; 
+  }
+  .optim-table-container .table-scroll-container::after {
+    content: '';
+    display: block;
+    height: 3rem; /* Same as padding-bottom */
+  }
+
+.optim-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    /* background-color: #121212;
+    color: #fff; */
+}
+
+.optim-table-container th,
+.optim-table-container td {
+    font-size: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.optim-table-container th {
+    background-color: #252525;
+    position: sticky;
+    top:0;
+}
+
+.optim-table-container tbody tr:nth-child(odd) {
+    background-color: #1a1a1a;
+}
+.optim-table-container tr:last-child  td{
+    border-bottom: none;
+}
+.optim-table-container .down:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.optim-table-container .up:hover  {
+    background-color: rgba(0, 255, 0, 0.1);
+    /* Faded green on hover for positive rates */
+}
+
+.optim-table-container .up {
+    color: #7DD180;
+    
+}
+
+.optim-table-container .down {
+    color: #CE5A59;
+}

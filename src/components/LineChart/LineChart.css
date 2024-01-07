@@ -1,0 +1,10 @@
+.linechart-container {
+    position: relative;
+    background-color: #1e1e1e;
+    border-radius: 0.5rem;
+    width:70rem;
+    /* height:20rem; */
+}
+.chart{
+    padding:1rem;
+}

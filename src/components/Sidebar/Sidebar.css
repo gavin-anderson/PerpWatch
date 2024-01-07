@@ -1,0 +1,106 @@
+.sidebar{
+    position: fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    width: 5rem;
+    overflow: hidden;
+    transition: width 0.3s;
+    z-index: 1000;
+    background-color: #0B0310;
+    
+    
+
+}
+.sidebar .disappear{
+    opacity: 0;
+    color: white;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: opacity 0.3s;
+}
+.sidebar:hover .disappear{
+    opacity:1;
+}
+
+.burger{
+    /* fill:white; */
+    width:25px;
+    height:auto;
+    margin-left: 1rem;
+    margin-right: 0.7rem;
+    transition: transform 0.3s;
+    color:#8075ea; 
+}
+.sidebar:hover .burger{
+    width:23px;
+    height:auto;
+    transform: rotate(-36deg);
+    
+}
+.link{
+    width:16rem;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.sidebar:hover{
+    width: 16rem;
+    overflow: visible;
+}
+
+
+.sidebar a{
+    text-decoration: none;
+}
+.logo{
+    width:9rem;
+    height:auto;
+
+}
+.icon{
+    fill:#8075ea; 
+    width: 20px;
+    height:auto;
+    margin-left:1rem;
+    margin-right: 0.7rem; 
+}
+
+.flex-top{
+    display:flex;
+    align-items: center;
+    overflow:hidden;
+    padding:1rem;
+    border-radius: 0.5rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding:0.2rem;
+}
+.flexbox-container{
+    display:flex;
+    align-items:center;
+    overflow: hidden;
+    border-radius:0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding:0.2rem;
+}
+.flexbox-container:hover{
+    background-color: rgba(128, 117, 234,0.6);
+}
+
+.social-links{
+    width:5rem;
+    position: fixed;
+    bottom:1rem;
+    transition: opacity 0.3s;
+    
+}
+.sidebar:hover .social-links{
+    width:16rem;
+    position: fixed;
+    bottom:1rem;
+    transition: width 0.3s;
+    
+}

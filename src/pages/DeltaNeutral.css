@@ -1,0 +1,26 @@
+.header-container {
+  position: fixed;
+  top: 1rem;
+  left: 7rem;
+}
+
+
+.firstrow-container{
+  position: fixed;
+  top: 7.5rem;
+  left: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  height: 20rem;
+}
+
+.secondrow-container {
+  position: fixed;
+  top: 28rem;
+  left: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  height: 20rem;
+}
